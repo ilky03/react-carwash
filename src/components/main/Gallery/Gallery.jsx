@@ -29,7 +29,7 @@ function Gallery() {
                 <div className="gallery-wrapper">
                     {videoLinksDynamic.map((video) => (
                         <div key={video} className="video-wrapper">
-                            <video playsInline webkit-playsinline="true" autoPlay={true} loop muted controls>
+                            <video playsInline webkit-playsinline="true" autoPlay={false} loop muted controls>
                                 <source src={video} type="video/mp4" />
                             </video>
                         </div>

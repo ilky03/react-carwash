@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 import './header.scss';
 import Logo from '../../sources/logo.png';
-import BackgroundVideo from '../../sources/bg-3.mp4';
+import BackgroundVideo from '../../sources/bg.mp4';
 
 function Header() {
 
