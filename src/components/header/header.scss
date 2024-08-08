@@ -20,7 +20,7 @@ nav {
         font-weight: 600;
 
         img {
-            height: 55px;
+            height: 30px;
         }
     }
 
@@ -41,7 +41,6 @@ nav {
         background-color: $main-color;
     }
     &__list {
-        // backdrop-filter: blur(10px);
         height: 100vh;
         width: 100%;
         li {
@@ -50,7 +49,7 @@ nav {
             font-size: 20px;
         }
         img {
-            height: 100px;
+            height: 40px;
         }
     }
 }

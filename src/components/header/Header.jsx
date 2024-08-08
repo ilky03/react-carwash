@@ -65,7 +65,7 @@ function Header() {
                 </video>
                 <div className="container">
                     <h1>2K</h1>
-                    <p>Автомийка та детейлінг у місті Одеса.</p>
+                    <p>Автомийка та детейлінг у місті Київ.</p>
                 </div>
             </header>
         </>

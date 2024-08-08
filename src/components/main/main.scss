@@ -42,7 +42,6 @@
 
     table {
         thead p, tbody th p {
-            color: #000;
             background-color: $accent-color;
             padding: 5px 10px;
             border-radius: 5px;
@@ -124,12 +123,20 @@
 .advantages-container {
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     min-height: calc(100vh - 81px - 95px);
-    img {
-        width: 120px;
+    .square-block {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+            margin: 20px 0;
+        }
+        p {
+            opacity: .4;
+        }
     }
 }
 

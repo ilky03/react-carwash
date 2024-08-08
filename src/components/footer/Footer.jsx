@@ -16,7 +16,7 @@ function Footer() {
                         <div className="map square-block">
                             <iframe 
                                 title="google-map" 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36980.62659766697!2d30.705781046056067!3d46.45659214568177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633360f5c311f%3A0x218318b07d07467b!2z0LLRg9C70LjRhtGPINCR0LDQu9C60ZbQstGB0YzQutCwLCAxMzAsINCe0LTQtdGB0LAsINCe0LTQtdGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1suk!2sua!4v1722160248766!5m2!1suk!2sua" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d267.24039936017857!2d30.430478289977806!3d50.41439486502949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c950fbdddaef%3A0xed42277d6ef15502!2z0LLRg9C70LjRhtGPINCd0L7QstC-0L_QvtC70YzQvtCy0LAsIDk5LCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1723147980866!5m2!1suk!2sua" 
                                 style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
@@ -29,11 +29,11 @@ function Footer() {
                             <div className="blocks-container">
                                 <div className='square-block'>
                                     <p>Адреса автомийки</p>
-                                    <h5>місто Одеса, вулиця Балківська 130</h5>
+                                    <h5>місто Київ, вулиця Новопольова 99</h5>
                                 </div>
                                 <div className='square-block'>
                                     <p>Номер телефону</p>
-                                    <h5>+380 96 725 93 91</h5>
+                                    <h5>+380 96 666 66 66</h5>
                                 </div>
                             </div>
 

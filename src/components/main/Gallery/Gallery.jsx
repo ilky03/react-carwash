@@ -5,7 +5,7 @@ import video2 from '../../../sources/gallery/2.mp4';
 import video3 from '../../../sources/gallery/3.mp4';
 import video4 from '../../../sources/gallery/4.mp4';
 
-import arrowRight from '../../../sources/arrow-right.png';
+import arrowRight from '../../../sources/arrow-right.svg';
 
 const videoLinksStable = [video1, video2, video3, video4];
 
@@ -29,7 +29,7 @@ function Gallery() {
                 <div className="gallery-wrapper">
                     {videoLinksDynamic.map((video) => (
                         <div key={video} className="video-wrapper">
-                            <video playsInline webkit-playsinline="true" autoPlay={false} loop muted controls>
+                            <video playsInline webkit-playsinline="true" autoPlay={true} loop muted>
                                 <source src={video} type="video/mp4" />
                             </video>
                         </div>

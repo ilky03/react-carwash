@@ -4,8 +4,8 @@ import miniCarPhoto from '../../../sources/mini.png';
 import sedanPhoto from '../../../sources/sedan.png';
 import suvPhoto from '../../../sources/suv.png';
 import busPhoto from '../../../sources/bus.png';
-import arrowLeft from '../../../sources/arrow-left.png';
-import arrowRight from '../../../sources/arrow-right.png';
+import arrowLeft from '../../../sources/arrow-left.svg';
+import arrowRight from '../../../sources/arrow-right.svg';
 
 function Services() {
     const carCategories = ['A', 'B', 'C', 'D'];
